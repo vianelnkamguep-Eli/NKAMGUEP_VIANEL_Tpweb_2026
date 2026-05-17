@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    background-color:#f4f4f4;
+    color: #222;
+    line-height: 1.6;
+    background-color: f4f4f4;
+    margin: 20px;
+.page{
+    width: 90%;
+    max-width: 11oopx;
+    margin: 0 auto;
+}
+.highlight{
+    text-align: center;
+    color:blue;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+}
+p{
+    font-size:16px ;
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+    color:blue;
+    margin-right: 15px;
+}
+a:hover{
+    color:darkblue;
+}
+ul{
+    background-color: white;
+}
+li{
+    margin-bottom: 5px;
+}
+img{
+    border-radius: 10px;
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.section{
+    background-color:white;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    gap: 5px;
+    max-width: 100%;
+}
+.contain{
+    display:flex;
+}
+main{
+    flex:3;
+    padding: 20px;
+    background-color:darkblue;
+}
+aside{
+    flex:1;
+    padding: 20px;
+    background-color: blue;
+}
+
+.high{
+    color: blue;
+}
+.header{
+    color:white;
+   background-size: 580px, 10%;
+    display: flex;
+    gap: 10px;
+}
+.head{
+    background-image: url(Images/image-cerveau.jpg);
+    background-size: 660px, 10%;
+}
+footer{
+    background-color: rgb(3, 3, 32);
+   background-size: 300px, 0%;
+    padding: 5px;
+    margin-top: 10px;
+    max-width: 100%;
+     color:white;
+}
+
+
+
+.col{
+  background-color: rgb(3, 3, 32);  
+
+}
+}
+nav a{
+    color: white;
+    margin: 0 15px;
+    text-decoration:none;
+}
+nav a:hover{
+    color:blue;
+}
+@media (max-width:768px) {
+    .container{
+        flex-direction: column;
+    }
+    nav{
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    }
+header{
+    padding: 15px;
+}
+h1{
+    font-size: 24px;
+}
+h2{
+    font-size: 20px;
+}
+p{
+    font-size: 15px;
+}
+}
+@media (max-width:480px) {
+    .page{
+        width: 100%;
+    }
+    body{
+        background-color: white;
+    }
+    header{
+        border-radius: 0;
+    }
+    main{
+        padding: 12px;
+    }
+    aside{
+        padding: 12px;
+    }
+    nav a{
+        font-size: 14px;
+    }
+    footer{
+        font-size: 14px;
+    }
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid#ccc;
+    border-radius: 5px;
+}
+textarea{
+     width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid#ccc;
+    border-radius: 5px;
+}
+select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid#ccc;
+    border-radius: 5px;  
+}
+button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0b3d91;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background: #062b66;
+}
+
